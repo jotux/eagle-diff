@@ -566,7 +566,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </classes>
 <parts>
 <part name="U$1" library="SparkFun" deviceset="BATTERY-2" device="AA"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="1206"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="1206" value="350"/>
 <part name="LED1" library="SparkFun" deviceset="LED" device="5MM"/>
 </parts>
 <sheets>
@@ -575,7 +575,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="5.08" y="12.7" rot="R270"/>
-<instance part="R1" gate="G$1" x="22.86" y="25.4"/>
+<instance part="R1" gate="G$1" x="17.78" y="25.4"/>
 <instance part="LED1" gate="G$1" x="35.56" y="15.24"/>
 </instances>
 <busses>
@@ -589,14 +589,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="2.54" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="17.78" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="25.4" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -19,4 +19,4 @@
 
 ## Try it out
 ### Clone this project:
-    git diff main.brd v2 v1
+    git diff v1 v2 main.brd

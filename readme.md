@@ -1,3 +1,6 @@
+## What is this?
+This simple python script lets you visually diff eagle CAD schematic and board files.
+
 ## Install
  - Download eagle-dif.py somehwere on your path
  - Adjust eagle_path variable if it is different

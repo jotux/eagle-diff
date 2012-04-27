@@ -18,7 +18,7 @@
     *.brd diff=eagle
 
 ## Try it out
-### Clone this project:
+### Clone this project then:
     git diff v1 v2 main.brd
 
 ## Example

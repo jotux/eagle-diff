@@ -1,5 +1,5 @@
 ## Install
- - Download somehwere on your path
+ - Download eagle-dif.py somehwere on your path
  - Adjust eagle_path variable if it is different
 
 ## Prerequisites

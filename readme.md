@@ -25,10 +25,9 @@ This simple python script lets you visually diff eagle CAD schematic and board f
     git diff v1 v2 main.brd
 
 ## Example
-### Top left: new
-### Top right: old
-### Bottom left: difference
-### Bottom right: overlay
+### Schematic
+![pew pew pew](https://github.com/jotux/eagle-diff/raw/master/sch_example.png "lasers pew pew")
+### Board
 ![pew pew pew](https://github.com/jotux/eagle-diff/raw/master/brd_example.png "lasers pew pew")
 
 ## Contribute
